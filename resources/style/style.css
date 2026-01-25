@@ -6,6 +6,16 @@
   box-sizing: border-box;
 }
 
+:root {
+  --primary-color: #20468a;
+  --secondary-color: #25688e;
+  --dark-shadow: #48505f;
+  --light-snow: #fffcfd;
+  --seagrass: #39a78d;
+  --light-color: #f9fafb;
+  --dark-color: #272d35;
+}
+
 html,
 body {
   font-family: "Open Sans", sans-serif;
@@ -30,6 +40,37 @@ img {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 2rem;
+}
+
+.section {
+  margin: 4rem 0;
+}
+
+/* Section Header */
+.section-header {
+  max-width: 750px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.section-header h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--dark-color);
+  margin-bottom: 0.5rem;
+}
+
+.section-header p {
+  font-size: 1.3rem;
+  color: var(--dark-color);
+}
+
+.heading-border {
+  width: 64px;
+  height: 4px;
+  background: var(--primary-color);
+  margin: 0 auto 2rem;
 }
 
 /* Navbar style */
