@@ -280,13 +280,15 @@ img {
 .offer .list {
   background: var(--light-snow);
   padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 .offer .list-header {
   background-color: var(--seagrass);
   color: var(--light-snow);
   padding: 0.5rem 1rem;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   font-weight: 700;
   margin: 1rem 0;
 }
@@ -294,6 +296,7 @@ img {
 .offer .list-item {
   padding: 1.4rem 0;
   border-bottom: 1px solid var(--dark-shadow);
+  font-size: 1rem;
 }
 
 .contact {
