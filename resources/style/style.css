@@ -6,6 +6,32 @@
   box-sizing: border-box;
 }
 
+html,
+body {
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.6;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Utility Classes */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
 /* Navbar style */
 .navbar {
   background: transparent;
