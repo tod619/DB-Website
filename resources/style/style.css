@@ -121,7 +121,16 @@ img {
 /* Hero Section */
 .hero-section {
   min-height: 100vh;
-  background: url(../images/Hero.jpg) center/cover no-repeat;
+  background:
+    linear-gradient(
+      to top left,
+      rgba(189, 195, 199, 0.9),
+      rgba(44, 62, 80, 0.9)
+    ),
+    url(../images/Hero.jpg) center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 /* End: Hero Section */
 
