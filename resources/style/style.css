@@ -118,6 +118,13 @@ img {
 
 /* Navbar End */
 
+/* Hero Section */
+.hero-section {
+  min-height: 100vh;
+  background: url(../images/Hero.jpg) center/cover no-repeat;
+}
+/* End: Hero Section */
+
 /* Responsive sizes */
 @media (max-width: 1200px) {
 }
