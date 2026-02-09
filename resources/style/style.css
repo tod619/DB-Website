@@ -181,6 +181,7 @@ img {
   text-transform: uppercase;
   font-size: 5rem;
   margin-bottom: 2rem;
+  text-align: center;
 }
 
 .hero-paragraph {
@@ -407,11 +408,25 @@ img {
 @media (max-width: 1200px) {
 }
 @media (max-width: 992px) {
+  .hero-heading {
+    font-size: 4rem;
+    letter-spacing: 1px;
+  }
+
   .services-grid {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 @media (max-width: 768px) {
+  .hero-heading {
+    font-size: 3rem;
+    letter-spacing: 1px;
+  }
+
+  .hero-paragraph {
+    font-size: 1.5rem;
+  }
+
   .about-grid {
     grid-template-columns: 1fr;
   }
@@ -427,13 +442,30 @@ img {
   .contact-grid {
     grid-template-columns: 1fr;
   }
+
+  .about h3 {
+    display: none;
+  }
 }
+
 @media (max-width: 576px) {
+  .hero-heading {
+    font-size: 2.5rem;
+  }
+
+  .hero-paragraph {
+    font-size: 1.5rem;
+  }
+
   .img-grid-item::before {
     display: none;
   }
 
   .contact .map-container::before {
     display: none;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr;
   }
 }
