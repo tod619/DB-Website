@@ -107,7 +107,7 @@ img {
 .navbar .main-menu-list {
   display: flex;
   align-items: center;
-  gap: 2rem;
+  gap: 3rem;
   font-weight: 600;
 }
 
@@ -116,7 +116,7 @@ img {
 }
 
 .navbar a:hover {
-  color: var(--secondary-color);
+  color: var(--seagrass);
 }
 
 .navbar i {
@@ -426,6 +426,14 @@ img {
 
   .hero-paragraph {
     font-size: 1rem;
+  }
+
+  .main-menu-items {
+    display: none;
+  }
+
+  .navbar .mobile-menu {
+    display: block;
   }
 
   .about-grid {
